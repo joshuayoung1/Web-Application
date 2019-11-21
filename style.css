@@ -1,0 +1,72 @@
+body {
+  background-color: orange;
+}
+
+#container {
+  background: white;
+  widows: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #eee;
+  border: dashed 4px brown;
+  color: brown;
+  text-align: center;
+  line-height: 5em;
+  margin: 0;
+}
+
+header h1{
+  margin: 0;
+}
+
+footer {
+  padding-left: 10px;
+  color: #eee;
+  background-color: grey;
+  clear: both;/* clears anything floating to the left or right */
+}
+
+h2 {
+  color: orange;
+}
+
+
+h3,
+h4 {
+  color: brown;
+}
+
+aside{
+  width: 250px;
+  float: left;
+  padding: 10px;
+}
+
+article{
+  width: 700px;
+  float: right;
+}
+
+input, textarea{
+  display: block;
+  margin: 5px 0;
+}
+
+
+h1,h2,h3{
+  margin-bottom: 5px;
+}
+
+h3{
+ margin-top: 5px;
+}
+
+form{
+  margin-top: 10px;
+}
+
+li{
+  margin: 20px;
+}
